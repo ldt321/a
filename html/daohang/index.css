@@ -1,0 +1,24 @@
+*{background:black;font-family:圆体;}
+#z{height:40%}
+#z input{position:absolute;right:35%;top:25%;height:15%;width:40%;border:0;padding:0 0 0 2.5%;border-radius: 100000px 0px 0px 100000px;font-size: 200%;background:pink;outline: none;}
+
+#z button{position: absolute;top:25%;height:15%;width:10%;right:25%;border:0;padding:0;font-size: 200%;border-radius: 0px 100000px 100000px 0px;background:white;background:rgb(250, 218, 141);font-weight:bolder;}
+
+
+#y{height:200px;background:black;padding:3% 20% 0px 20%;}
+#y select,#y span{font-size: 25px;border:0;}
+#y span{color:pink;margin:0px 30px 0px 30px;font-weight: bold;}
+#y select{outline:none;background:black;color:rgb(250, 218, 141);}
+#y select:checked{color:rgb(250, 218, 141);outline: none;box-shadow:0px}
+#y option{
+user-select: none;color:rgb(250, 218, 141)}
+#y div{display: inline-block;text-align: center;}
+
+.ooo:visited,.ooo:valid,.ooo:target,.ooo:root,.ooo:required,.ooo:read-write,.ooo:read-only,.ooo:out-of-range,
+.ooo:link,.ooo:last-of-type,.oooo:last-child,.ooo:lang(language),.ooo:invalid,.ooo:in-range,.ooo:hover,.ooo:focus,
+
+.ooo:first-of-type,.ooo:first-child,.oooo:enabled,.ooo:empty,.ooo:disabled,.ooo:checked,.ooo:active
+{color:red}
+
+#aaaaa{position: absolute;height: 45%;width: 80%;top:55%;right:10%;overflow: hidden;}
+#aaaab{position: absolute;height:100%;width: 100%;top:0%;right:-10%;border:0px solid red}

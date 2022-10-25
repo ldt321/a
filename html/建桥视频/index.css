@@ -1,0 +1,183 @@
+body{
+	padding:0;
+	height:3000px;
+	width:100%;
+	background:white;
+	margin:0;
+	box-sizing: border-box;
+	}
+#top,#left,#center,#right,#righ,#bottom{
+	display: inline-block;
+	position:absolute;
+	}
+#top{
+	height:64px;
+	width:86%;
+	top:0px;
+	left:200px;
+	}
+#a{
+	background:pink;
+	length=80%;
+	right:40%;
+	}
+#q{
+	position:absolute;
+	top:8px;
+	left:80px;
+	width:800px;
+	height:50px;
+	background:#e8f0fe;
+	border:5px solid #ccdffe;
+	padding-left:1em;
+	border-radius:20px 0px 0px 20px;
+	font-size:35px;
+	}
+#sousuo{
+	position:absolute;
+	background: #ccdffe;
+	top:8px;
+	left:880px;
+	width:80px;
+	height:50px;
+	border-radius:0px 20px 20px 0px;
+	border:0px solid white;
+	}
+#left{
+	width:200px;
+	height:100%;
+	left:0px;
+	border-right: 0.667px solid;
+	overflow: scroll;
+	position:fixed;
+	padding:20px;
+	}
+#left::-webkit-scrollbar {/*滚动条整体样式*/
+    width: 8px;     /*高宽分别对应横竖滚动条的尺寸*/
+    height: 2px;
+    scrollbar-arrow-color:rgba(0,0,0,0);
+        }
+	#left::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0.2);
+    scrollbar-arrow-color:red;
+	
+        }
+	#left::-webkit-scrollbar-track {/*滚动条里面轨道*/
+    -webkit-box-shadow: inset 0 30 5px rgba(0,0,0,0.2);
+    border-radius: 0;
+    background: rgba(0,0,0,0.1);
+    }
+#left a{text-decoration:none;font-family:华文行楷;}
+#left h1{font-weight: bold;}
+#center{
+	width:86%;
+	height:2936px;
+	left:200px;
+	top:64px;
+	flex-wrap: wrap;
+	z-index:10;
+	}
+#center div{
+	position:relative;
+	display:inline-block;
+	width:300px;
+	height:200px;
+	margin:10px;
+	padding:0px;
+	justify-content: flex-start;
+	white-space: nowrap;
+	}
+#center iframe{
+	position:absolute;
+	top:-400px;
+	right:-640px;
+	width:1500px;
+	height:1000px;
+	transform: scale(0.2);
+	z-index: 14;
+	target:_self;
+	box-shadow:0px 0px 30px black;
+	}
+#center iframe:hover{
+	position:absolute;
+	top:-330px;
+	right:-600px;
+	width:1500px;
+	height:1000px;
+	transform: scale(0.5);
+	border-radius: 100px;
+	background:white;
+	z-index: 15;
+	target:_self;
+	}
+#hea::-webkit-scrollbar {/*滚动条整体样式*/
+    width: 8px;     /*高宽分别对应横竖滚动条的尺寸*/
+    height: 2px;
+    scrollbar-arrow-color:rgba(0,0,0,0);
+        }
+	#hea::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0.2);
+    scrollbar-arrow-color:red;
+	
+        }
+	#hea::-webkit-scrollbar-track {/*滚动条里面轨道*/
+    -webkit-box-shadow: inset 0 30 5px rgba(0,0,0,0.2);
+    border-radius: 0;
+    background: rgba(0,0,0,0.1);
+    }
+#right{
+	width:40px;
+	height:80px;
+	background:blue;
+	right:1%;
+	bottom:10%;
+	z-index:11;
+	position:fixed;
+	}
+#anhei{
+	position: absolute;
+	top:80%;
+	}
+#lianxi:hover{
+	#righ.display:inline-block;
+	}
+#righ{
+	width:400px;
+	height:500px;
+	background:white;
+	border:10px solid red;
+	top:200px;
+	left:700px;
+	z-index:11;
+	position: fixed;
+	display:none;
+	}
+#guanbi{
+	width:40px;
+	height:40px;
+	z-index:12;
+	display:inline-block;
+	position:absolute;
+	right:0px;
+	background:white;
+	}
+#gbtz{
+	font-size:40px;
+	
+	}
+#ldt{
+	position:absolute;
+	right:80px;
+	bottom:30px;
+}
+bottom{
+	width:50px;
+	height:150px;
+	background:darkgrey;
+	right:25%;
+	top:85%
+	}
